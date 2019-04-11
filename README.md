@@ -1,4 +1,4 @@
-
+[![Build Status](https://novalian.visualstudio.com/Skin and Bones/_apis/build/status/DockerTest-CI?branchName=master)](https://novalian.visualstudio.com/Skin and Bones/_build/latest?definitionId=14&branchName=master)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
