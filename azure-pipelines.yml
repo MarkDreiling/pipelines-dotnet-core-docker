@@ -11,7 +11,7 @@ pool:
 
 variables:
   imageName: 'DockerTestImage:$(build.buildId)'
-  dockerId: my-docker-id  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
+  dockerId: NSDockerTest  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
   
 steps:
 - script: |
