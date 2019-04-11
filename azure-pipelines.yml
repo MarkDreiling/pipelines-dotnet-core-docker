@@ -19,4 +19,4 @@ steps:
     docker login -u $(dockerId) -p $(pswd) $(dockerId).azurecr.io
     docker push $(dockerId).azurecr.io/$(imageName)
   env:
-    pswd: 'm@rk1247'        # Define dockerPassword in the Variables tab of this pipeline in Pipelines page of web interface
+    pswd: $(admin.pw)        # Define dockerPassword in the Variables tab of this pipeline in Pipelines page of web interface
