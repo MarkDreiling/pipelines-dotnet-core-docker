@@ -10,8 +10,8 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 variables:
-  imageName: 'DockerTestImage:$(build.buildId)'
-  dockerId: NSDockerTest  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
+  imageName: 'dockertestimage:$(build.buildId)'
+  dockerId: nsdockertest  # Replace with your Docker ID for Docker Hub or the admin user name for the Azure Container Registry
   
 steps:
 - script: |
